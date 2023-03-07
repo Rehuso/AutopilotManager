@@ -117,7 +117,7 @@
     }
   },
   "variables": {
-    "_repoUrl": "https://raw.githubusercontent.com/okieselbach/Autopilot-Manager",
+    "_repoUrl": "https://raw.githubusercontent.com/Rehuso/AutopilotManager",
     "_artifactsLocation": "[concat(variables('_repoUrl'), '/master/dist/Artifacts.zip')]",
     "_appServicePlan": "[concat('AutopilotManager-ServicePlan-', uniqueString(resourceGroup().id))]",
     "_appSerivceName": "[concat('AutopilotManager-', uniqueString(resourceGroup().id))]"
